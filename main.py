@@ -14,7 +14,7 @@ class Vehicle:
 
 #Define a Car class that inherits from Vehicle.
 class Car(Vehicle):
-  """A car class that lets user enter the amount of car doors."""
+  """A car class that measures the amount of car doors."""
   #Add the attribute cardoors.
   def __init__(self, make, model, cardoors):
     """Initialize the parent class."""

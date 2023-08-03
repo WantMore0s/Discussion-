@@ -30,7 +30,7 @@ class Car(Vehicle):
     
 #Define the pick up class that inherits from Vehicle.
 class Pickup(Vehicle):
-  """A pickup class that lets user enter the length of truck bed."""
+  """A pickup class that measures the length of truck bed."""
   #Add the attribute bed lenth.
   def __init__(self, make, model, bed_length):
     """Initialize the parent class."""
